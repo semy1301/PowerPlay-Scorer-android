@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:itemBackground="@color/white">
+
+    <item android:id="@+id/tabpon"
+        android:title="Scoring Summary"
+        app:showAsAction="never"/>
+    <item android:id="@+id/tabpen"
+        android:title="Rule Summary"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/gmn"
+        android:title="Game Manual"
+        app:showAsAction="never">
+        <!--  <menu>
+            <item
+                android:id="@+id/gmn2t"
+                android:title="Game Manual P2 - Traditional" />
+            <item
+                android:id="@+id/gmn2r"
+                android:title="Game Manual P2 - Remote" />
+        </menu>-->
+    </item>
+    <item android:id="@+id/flwus"
+        android:title="Follow Us"
+        app:showAsAction="never"/>
+    <item android:id="@+id/restart"
+        android:title="Restart"
+        app:showAsAction="never">
+    </item>
+
+</menu>
+
+

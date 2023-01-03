@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Scorepp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/ABSO_BLUE</item>
+
+        <!--Secondary brand color.-->
+        <!-- Status bar color.-->
+        <item name="android:statusBarColor">@color/ABSO_BLUE</item>
+
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/alata</item>
+        <!-- Customize your theme here.<item name="android:textColorPrimary">@color/ABSO_WHITE</item> -->
+    </style>
+
+    <style name="SplashTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/icobg1</item>
+        <item name="colorPrimary">@color/ABSO_BLUE</item>
+        <item name="android:statusBarColor">@color/ABSO_BLUE</item>
+    </style>
+
+
+</resources>
